@@ -32,4 +32,4 @@ brew cask install beardedspice
 brew cask install intellij-idea
 brew cask install steam
 brew cask install google-chrome
-
+brew cask install amethyst
