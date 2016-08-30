@@ -9,7 +9,7 @@ brew update
 brew doctor
 brew upgrade
 
-# Install Pacakages
+# Install Tools
 brew install cask    
 brew tap homebrew/science    
 brew install r
@@ -24,3 +24,12 @@ brew install mysql
 brew install maven
 brew install git-lfs
 brew install bash-completion
+
+# Install Applications
+brew cask install insync
+brew cask install insomniax
+brew cask install beardedspice
+brew cask install intellij-idea
+brew cask install steam
+brew cask install google-chrome
+
