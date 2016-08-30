@@ -46,7 +46,6 @@ open /Applications/Amethyst.app
 git clone https://github.com/ashwin153/tools.git ~/Documents/workspace/tools
 cp ~/Documents/workspace/tools/vimrc ~/.vimrc
 cp ~/Documents/workspace/tools/bash_profile ~/.bash_profile
-mkdir ~/.ssh
-cp ~/Documents/workspace/tools/id_rsa.pub ~/.ssh/
+ssh-keygen -t rsa -b 4096 -C "ashwin.madavan@gmail.com"
 git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 vim +PluginInstall +qall
