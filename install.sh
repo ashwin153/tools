@@ -43,10 +43,10 @@ brew cask install amethyst
 open /Applications/Amethyst.app
 
 # Setup Workspace
-mkdir ~/Documents/workspace
-cd ~/Documents/workspace
-git clone https://github.com/ashwin153/tools.git
-cp tools/vimrc ~/.vimrc
-cp tools/bash_profile ~/.bash_profile
+git clone https://github.com/ashwin153/tools.git ~/Documents/workspace/tools
+cp ~/Documents/workspace/tools/vimrc ~/.vimrc
+cp ~/Documents/workspace/tools/bash_profile ~/.bash_profile
 mkdir ~/.ssh
-cp tools/id_rsa.pub ~/.ssh/
+cp ~/Documents/workspace/tools/id_rsa.pub ~/.ssh/
+git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
+vim +PluginInstall +qall
