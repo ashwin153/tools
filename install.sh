@@ -26,10 +26,27 @@ brew install git-lfs
 brew install bash-completion
 
 # Install Applications
+brew tap caskroom/versions
 brew cask install insync
+open /Applications/Insync.app
 brew cask install insomniax
+open /Applications/InsomniaX.app
 brew cask install beardedspice
-brew cask install intellij-idea
+open /Applications/BeardedSpice.app
+brew cask install intellij-idea-ce
+open /Applications/IntelliJ\ IDEA\ CE.app
 brew cask install steam
+open /Applications/Steam.app
 brew cask install google-chrome
+open /Applications/Google\ Chrome.app
 brew cask install amethyst
+open /Applications/Amethyst.app
+
+# Setup Workspace
+mkdir ~/Documents/workspace
+cd ~/Documents/workspace
+git clone https://github.com/ashwin153/tools.git
+cp tools/vimrc ~/.vimrc
+cp tools/bash_profile ~/.bash_profile
+mkdir ~/.ssh
+cp tools/id_rsa.pub ~/.ssh/
