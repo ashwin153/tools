@@ -1,4 +1,7 @@
 #!/bin/bash
+cp .vimrc ~/.vimrc
+cp .bash_profile ~/.bash_profile
+
 # Install Command Line Tools
 xcode-select --install
 
