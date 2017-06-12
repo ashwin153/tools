@@ -1,6 +1,8 @@
-# Setup Workstation
 ```
-curl --user ashwin153 'https://raw.githubusercontent.com/ashwin153/tools/master/install.sh' > ~/Downloads/install.sh
-chmod +x ~/Downloads/install.sh
+mkdir -p ~/Documents/workspace
+cd ~/Documents/workspace
+git clone https://github.com/ashwin153/tools.git
+cd tools
+chmod +x ./install.sh
 ./install.sh
 ```
