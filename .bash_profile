@@ -3,7 +3,7 @@ export PATH="/usr/local/sbin:$PATH"
 
 # Bash Completion
 if [ -f /usr/share/bash-completion/bash_completion ]; then
-  ./usr/share/bash-completion/bash_completion
+  . /usr/share/bash-completion/bash_completion
 fi
 
 # Git Branch in Prompt
