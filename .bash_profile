@@ -2,8 +2,8 @@
 export PATH="/usr/local/sbin:$PATH" 
 
 # Bash Completion
-if [ -f /usr/share/bash-completion/bash_completion ]; then
-  . /usr/share/bash-completion/bash_completion
+if [ -f $(brew --prefix)/etc/bash_completion ]; then
+  . $(brew --prefix)/etc/bash_completion
 fi
 
 # Git Branch in Prompt
