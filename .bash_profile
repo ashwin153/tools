@@ -6,7 +6,7 @@ if [ -f /usr/share/bash-completion/bash_completion ]; then
 	. /usr/share/bash-completion/bash_completion
 fi
 
-# Git Branch
+# Git Branch in Prompt
 parse_git_branch() {
   git branch 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/ (\1)/'
 }
