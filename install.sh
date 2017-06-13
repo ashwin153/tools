@@ -28,7 +28,7 @@ git config --global core.editor /usr/bin/vim
 git config --global user.name "Ashwin Madavan"
 git config --global user.email ashwin.madavan@gmail.com
 
-# Setup Workspace`
+# Setup Workspace
 git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 cp .vimrc ~/.vimrc
 cp .bash_profile ~/.bash_profile
