@@ -24,6 +24,7 @@ brew cask install spectacle
 brew cask install steam
 
 # Setup Workspace`
+git config --global core.editor /usr/bin/vim
 git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 cp .vimrc ~/.vimrc
 cp .bash_profile ~/.bash_profile
