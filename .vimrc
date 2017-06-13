@@ -20,8 +20,9 @@ filetype plugin indent on
 
 set number
 set smartindent
-set tabstop=4
-set shiftwidth=4
+set tabstop=2
+set expandtab
+set shiftwidtdh=2
 
 set modeline
 set wildmode=longest,list
