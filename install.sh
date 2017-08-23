@@ -8,12 +8,16 @@ sudo chown -R $(whoami) /usr/local
 brew update
 brew doctor
 brew upgrade 
-
-# Install Tools
 brew install cask    
 brew tap homebrew/science   
+
+# Install Programming Languages
 brew cask install java
 brew install scala
+brew install python
+brew install python3
+
+# Install Tools 
 brew install bash-completion
 brew install git-lfs
 
@@ -21,7 +25,6 @@ brew install git-lfs
 brew cask install intellij-idea-ce
 brew cask install google-chrome
 brew cask install spectacle
-brew cask install steam
 
 # Setup Git
 git config --global core.editor /usr/bin/vim
@@ -33,3 +36,4 @@ git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 cp .vimrc ~/.vimrc
 cp .bash_profile ~/.bash_profile
 vim +PluginInstall +qall
+
