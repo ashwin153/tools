@@ -22,7 +22,7 @@ set number
 set smartindent
 set tabstop=2
 set expandtab
-set shiftwidtdh=2
+set shiftwidth=2
 
 set modeline
 set wildmode=longest,list
