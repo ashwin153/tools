@@ -54,6 +54,9 @@ if has('gui_running')
 	call togglebg#map("")
 endif
 
+" Use macOS Preview to display PDFs.
+let g:livepreview_previewer = 'open -a Preview'
+
 " Highlight 100 character column
 if version >= 703
 	let &colorcolumn=join(range(101,101),",")
