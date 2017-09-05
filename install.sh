@@ -20,6 +20,7 @@ brew install python3
 # Install Tools 
 brew install bash-completion
 brew install git-lfs
+brew install evince
 
 # Install Applications
 brew cask install intellij-idea-ce
