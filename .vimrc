@@ -14,6 +14,8 @@ Plugin 'scrooloose/nerdtree'
 Plugin 'drmingdrmer/vim-syntax-markdown'
 " Vim Scala Support
 Plugin 'derekwyatt/vim-scala'
+" A Vim Plugin for Lively Previewing LaTeX PDF Output
+Plugin 'xuhdev/vim-latex-live-preview'
 
 call vundle#end()
 filetype plugin indent on
