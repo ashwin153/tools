@@ -20,6 +20,9 @@ Plugin 'xuhdev/vim-latex-live-preview'
 call vundle#end()
 filetype plugin indent on
 
+" Use macOS Preview to display PDF.
+let g:livepreview_previewer = 'open -a Preview'
+
 set number
 set smartindent
 set tabstop=2
