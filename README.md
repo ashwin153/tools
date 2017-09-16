@@ -10,16 +10,3 @@ cd tools
 chmod +x ./install.sh
 ./install.sh
 ```
-
-# Commands
-```
-# Merge Branches                                                                                              
-git checkout test
-git pull
-git checkout master
-git pull
-git merge --no-ff --no-commit test
-
-git push origin --delete test
-git branch -D test                                                                                   
-```

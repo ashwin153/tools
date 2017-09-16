@@ -26,6 +26,11 @@ brew cask install intellij-idea-ce
 brew cask install google-chrome
 brew cask install spectacle
 
+# Setup Python
+sudo easy_install pip
+sudo pip install virtualenv
+sudo pip install click
+
 # Setup Git
 git config --global core.editor /usr/bin/vim
 git config --global user.name "Ashwin Madavan"
