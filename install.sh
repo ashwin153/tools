@@ -38,7 +38,7 @@ git config --global user.email ashwin.madavan@gmail.com
 
 # Setup Workspace
 git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
-cp .vimrc ~/.vimrc
-cp .bash_profile ~/.bash_profile
+ln -s .vimrc ~/.vimrc
+ln -s .bash_profile ~/.bash_profile
 vim +PluginInstall +qall
 
