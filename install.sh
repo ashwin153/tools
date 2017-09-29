@@ -22,8 +22,9 @@ brew install bash-completion
 brew install git-lfs
 
 # Install Applications
-brew cask install intellij-idea-ce
 brew cask install google-chrome
+brew cask install insync
+brew cask install intellij-idea-ce
 brew cask install spectacle
 
 # Setup Python
