@@ -27,6 +27,10 @@ brew cask install insync
 brew cask install intellij-idea-ce
 brew cask install spectacle
 
+# Install Fonts
+brew tap caskroom/fonts
+brew cask install font-hasklig
+
 # Setup Python
 sudo easy_install pip
 sudo pip install virtualenv
