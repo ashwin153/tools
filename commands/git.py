@@ -8,8 +8,8 @@ def cli():
 
 
 @cli.command()
-@click.option('--base', default='master', help='Branch to merge into')
-@click.option('--feature', help='Branch to merge from')
+@click.option('--base', default='master', help='Branch to merge into.')
+@click.option('--feature', help='Branch to merge from.')
 def merge(base, feature):
     subprocess.call('git checkout %s' % feature, shell=True)
     subprocess.call('git pull', shell=True)
@@ -20,7 +20,9 @@ def merge(base, feature):
 
 @cli.command()
 @click.argument('branch')
-def delete(branch):
-    subprocess.call('git push origin --delete %s' % branch, shell=True)
+@click.option('--remote', is_flag=True, help="Propagate deletion to remote")
+def delete(branch, remote):
+    if remote:
+        subprocess.call('git push origin --delete %s' % branch, shell=True)
     subprocess.call('git branch -D %s' % branch, shell=True)
 
