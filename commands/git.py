@@ -19,7 +19,7 @@ def merge(base, feature):
 
 
 @cli.command()
-@click.argument('branch')
+@click.option('--branch', help="Branch to delete.")
 @click.option('--remote', is_flag=True, help="Propagate deletion to remote")
 def delete(branch, remote):
     if remote:

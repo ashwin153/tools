@@ -1,0 +1,16 @@
+# macOS
+.DS_Store
+
+# Vim
+.*.swp
+.*.swo
+
+# IntelliJ 
+.idea/
+*.iml
+
+# Cpp
+build/
+lib/
+bin/
+
