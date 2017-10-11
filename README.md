@@ -1,4 +1,7 @@
-# Workspace
+# Tools
+An automated configuration and personal toolchain for my environment.
+
+## Bootstrap
 ```
 # Create Workspace Directory
 mkdir -p ~/Documents/workspace
@@ -9,4 +12,21 @@ git clone https://github.com/ashwin153/tools.git
 cd tools
 chmod +x ./install.sh
 ./install.sh
+```
+
+## CLI
+```
+# Safely merges a git branch.
+tools git merge --base master --feature ashwin153/feature
+
+# Safely deletes a git branch.
+tools git delete --branch ashwin153/feature
+tools git delete --branch ashwin153/feature --remote
+
+# Upgrades the toolchain.
+tools setup upgrade
+
+# Bootstraps a project template.
+tools setup project --type latex
+tools setup project --type pants --root ./path/to/dir
 ```
