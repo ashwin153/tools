@@ -54,13 +54,13 @@ echo "[$tag] Productivity/GitLfs"
 eval "brew $tag git-lfs"
 
 # Install Applications.
-echo "[$tag] Application/GoogleChrome"
+echo "[$tag] Applications/GoogleChrome"
 eval "brew cask install google-chrome"
-echo "[$tag] Application/Insync"
+echo "[$tag] Applications/Insync"
 eval "brew cask install insync"
-echo "[$tag] Application/IntelliJ"
+echo "[$tag] Applications/IntelliJ"
 eval "brew cask install intellij-idea-ce"
-echo "[$tag] Application/Spectacle"
+echo "[$tag] Applications/Spectacle"
 eval "brew cask install spectacle"
 
 # Install Fonts.
