@@ -2,7 +2,7 @@
 An automated configuration and personal toolchain for my environment.
 
 ## Bootstrap
-```
+```sh
 # Create Workspace Directory
 mkdir -p ~/Documents/workspace
 cd ~/Documents/workspace
@@ -14,8 +14,8 @@ chmod +x ./install.sh
 ./install.sh
 ```
 
-## CLI
-```
+## Toolchain
+```sh
 # Safely merges a git branch.
 tools git merge --base master --feature ashwin153/feature
 
