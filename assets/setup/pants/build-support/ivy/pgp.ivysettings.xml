@@ -17,7 +17,7 @@ Licensed under the Apache License, Version 2.0 (see LICENSE).
     <!-- Enable support for the more robust commons-httpclient downloader. -->
     <dependency org="commons-httpclient" name="commons-httpclient" rev="3.1"/>
 
-    <!-- Support for the pgp signer. -->
+    <!-- support for the pgp signer -->
     <dependency org="org.bouncycastle" name="bcpg-jdk14" rev="1.45"/>
     <dependency org="org.bouncycastle" name="bcprov-jdk14" rev="1.45"/>
   </dependencies>

@@ -24,12 +24,3 @@ target(
     dependencies=[':scalac', ':scala-reflect', ':scala-library']
 )
 
-# ANTLR
-jar_library(
-    name='antlr-4', 
-    jars=[
-        jar(org='org.antlr', name='antlr4', rev='4.7'),
-        jar(org='org.antlr', name='antlr4-runtime', rev='4.7'),
-    ],
-)
-

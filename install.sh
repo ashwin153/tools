@@ -30,6 +30,8 @@ eval "brew tap homebrew/science"
 # Install Programming Languages.
 echo "[$tag] Language/Java"
 eval "brew cask install java"
+echo "[$tag] Language/LaTeX"
+eval "brew cask install basictex"
 echo "[$tag] Language/Python"
 eval "brew $tag python"
 echo "[$tag] Language/Python3"
