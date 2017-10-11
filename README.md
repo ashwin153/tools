@@ -14,7 +14,7 @@ chmod +x ./install.sh
 ./install.sh
 ```
 
-## Command Line Interface
+## Toolchain
 ```sh
 # Safely merges a git branch.
 tools git merge --base master --feature ashwin153/feature
