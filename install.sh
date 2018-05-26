@@ -40,18 +40,22 @@ echo "[$tag] Language/Scala"
 eval "brew $tag scala"
 
 # Install Virtual Machines.
-echo "[$tag] VirtualMachine/Boot2Docker"
-eval "brew $tag boot2docker"
 echo "[$tag] VirtualMachine/Docker"
-eval "brew $tag docker"
+eval "brew $tag docker docker-machine"
 echo "[$tag] VirtualMachine/VirtualBox"
 eval "brew cask install virtualbox"
+
+# Install Databases.
+echo "[$tag] Database/MySQL"
+eval "brew $tag mysql"
 
 # Install Productivity Tools.
 echo "[$tag] Productivity/BashCompletion"
 eval "brew $tag bash-completion"
 echo "[$tag] Productivity/GitLfs"
 eval "brew $tag git-lfs"
+echo "[$tag] Productivity/Pandoc"
+eval "brew $tag pandoc pandoc-citeproc"
 
 # Install Applications.
 echo "[$tag] Applications/GoogleChrome"
@@ -66,6 +70,10 @@ eval "brew cask install spectacle"
 # Install Fonts.
 echo "[$tag] Font/Hasklig"
 eval "brew cask install font-hasklig"
+echo "[$tag] Font/Lora"
+eval "brew cask install font-lora"
+echo "[$tag] Font/Merriweather"
+eval "brew cask install font-merriweather"
 
 # Setup Python.
 echo "[$tag] Python/Click"
