@@ -1,5 +1,7 @@
-# Setup Pants.
-# https://github.com/pantsbuild/pants/blob/master/.travis.yml
+####################################################################################################
+#                                            Setup Pants                                           #
+#                      https://github.com/build/pants/blob/master/.travis.yml                      #
+####################################################################################################
 env:
   global:
     - JAVA_HOME="$HOME/opt/jdk1.8.0_131"
@@ -20,8 +22,10 @@ cache:
     - build-support/isort.venv
     - build-support/pants_dev_deps.venv
 
-# Setup JDK.
-# https://github.com/foursquare/fsqio/blob/master/.travis.yml
+####################################################################################################
+#                                            Setup JDK                                             #
+#                   https://github.com/foursquare/fsqio/blob/master/.travis.yml                    #
+####################################################################################################
 before_script: |
   if ! ${HOME}/opt/jdk1.8.0_131/bin/java -version; then
     mkdir -p ~/opt
@@ -31,7 +35,10 @@ before_script: |
     tar xzf jdk-8u131-linux-x64.tar.gz -C ~/opt
   fi
 
-# Compile and Test.
+####################################################################################################
+#                                         Compile and Test                                         #
+#                   https://github.com/foursquare/fsqio/blob/master/.travis.yml                    #
+####################################################################################################
 language: python
 python:
   - '2.7'
